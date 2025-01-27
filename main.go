@@ -22,4 +22,10 @@ func main() {
 	fmt.Println(strings.ToUpper(str2))
 	fmt.Println(strings.Contains(str2, "go"))
 
+	//Math Operations
+	temperatureC := 32
+	temperatureK := 0.0
+
+	temperatureK = float64(temperatureC) + 273.15
+
 }
